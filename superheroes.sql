@@ -36,5 +36,5 @@ insert into personajes VALUES (5, 'Clark Kent', 'Superman', 165, 'Infinita', 120
 select * from personajes;
 update personajes set aparicion = 1938 where id_personaje=5;
 delete from personajes where id_personaje=4;
+insert into personajes VALUES (6, 'Bruce Banner', 'Hulk', 160, '600mil', 75, 98, 1962, 'Fisico', 3);
 
-drop database superheroes;
